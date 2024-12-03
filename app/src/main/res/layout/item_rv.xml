@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="8dp">
+        <TextView
+            android:id="@+id/tv_name"
+            android:padding="5dp"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:text="100 000 MB"
+            android:textSize="25sp"
+            android:textColor="#E31212"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/tv_ussd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="10dp"
+            android:text="100 000 MB"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/tv_about"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#ABA8A8"
+            android:text="90 000 so'm"/>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
